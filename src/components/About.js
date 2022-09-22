@@ -1,9 +1,9 @@
-function About({photo ="https://via.placeholder.com/215", abou}){
-
+function About({image ="https://via.placeholder.com/215", about}){
+console.log(image)
 return (
         <aside>
-            <img src={photo} alt='blog logo'/>
-            <p>{abou}</p>
+            <img src={image} alt='blog logo'/>
+            <p>{about}</p>
         </aside>
     )
 }

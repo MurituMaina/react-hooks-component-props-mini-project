@@ -4,15 +4,15 @@ import Header from "./Header"
 import About from "./About"
 import ArticleList from "./ArticleList"
 
-// console.log(blogData);
+console.log(blogData.image);
 
 function App() {
   return (
     <div className="App">
       You're on your own from here! Follow the deliverables; test things out in
       the browser as you write your code; and good luck!
-      <Header nam={blogData.name}/>
-      <About photo={blogData.image} abou={blogData.about}/>
+      <Header name={blogData.name} />
+       <About images={blogData.image} about={blogData.about}/>
       <ArticleList />
     </div>
   );

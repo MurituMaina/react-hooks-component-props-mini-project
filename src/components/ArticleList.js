@@ -4,7 +4,7 @@ import Article from "./Article"
 function ArticleList(){
     let values= blogData.posts
    let post = values.map((value, index)=> {
-        return( <Article key={index} articleTitle={value.title} dateOfTheArticle={value.date} previewOfTheArticle = {value.preview}/>)
+        return( <Article key={index} title={value.title} date={value.date} preview = {value.preview}/>)
     })
     return(
         <main>
