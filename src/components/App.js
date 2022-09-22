@@ -2,7 +2,7 @@ import React from "react";
 import blogData from "../data/blog";
 import Header from "./Header"
 import About from "./About"
-// import ArticleList from "./ArticleList"
+import ArticleList from "./ArticleList"
 
 // console.log(blogData);
 
@@ -13,7 +13,7 @@ function App() {
       the browser as you write your code; and good luck!
       <Header nam={blogData.name}/>
       <About photo={blogData.image} abou={blogData.about}/>
-      {/* <ArticleList /> */}
+      <ArticleList />
     </div>
   );
 }
